@@ -1,0 +1,43 @@
+:root {
+  --main-color: #15152b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+nav {
+  height: 70px;
+}
+
+.left {
+  flex: 0.5;
+  overflow: hidden;
+}
+
+.left .imgContainer {
+  width: 120%;
+  height: 120%;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  float: right;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.left .imgContainer .image {
+  height: 85%;
+}
