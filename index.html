@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <script type="module" src="./scripts/app.js"></script>
     <title>Syanix</title>
 </head>
+
 <body>
     <nav>
         <div class="navbar">
-            <div class='wrapper'>
-                <div class='left'>
+            <div class="wrapper">
+                <div class="left">
                     <a href="#main" class="logo">
-                        Syanix.
+                        SyAnix.
                     </a>
                 </div>
             </div>
         </div>
     </nav>
-    <main>
-        <div class="left">
-            <div class="imgContainer">
-                <img src='media/logo.png' alt='' class='image'></img>
+    <div class="sections">
+        <main class="scroll-section">
+            <div class="left">
+                <div class="img-container">
+                    <img src="media/logo.png" alt="" class="image"></img>
+                </div>
             </div>
-        </div>
-        <div class="right">
-            <div className="wrapper">
-                <h1>Hi,</h1>
-                <h1>We're Syanix</h1>
+            <div class="right">
+                <div class="wrapper">
+                    <h1>Hi,</h1>
+                    <h1>We're <span class="name">SyAnix</span></h1>
+                </div>
+            </div>
+            <a href="#portfolio">
+                <img src="./media/down.png" alt="" />
+            </a>
+        </main>
+        <div id="about-us" class="scroll-section">
+            <div id="header">
+
+            </div>
+            <div id="info">
                 
             </div>
         </div>
-    </main>
-</div>
+    </div>
+
 </body>
+
 </html>
