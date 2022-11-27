@@ -112,6 +112,7 @@ main .right .wrapper h1 .name::after {
   background: crimson;
   display: inline-block;
   animation: cursor-blink 2s infinite;
+  -webkit-animation: cursor-blink 2s infinite;
 }
 
 main a {
@@ -123,6 +124,7 @@ main a {
 main a img {
   width: 30px;
   animation: cursor-blink 2s infinite;
+  -webkit-animation: cursor-blink 2s infinite;
 }
 
 .people {
@@ -142,7 +144,7 @@ main a img {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .people .person-logo:hover {
@@ -155,3 +157,84 @@ main a img {
   border-radius: 100%;
 }
 
+.scroll-section #info {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+}
+
+.scroll-section #info .personal-info {
+  flex: 0.25;
+  width: 25%;
+  background-color: var(--main-color);
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.scroll-section #info .personal-info .spacer {
+  height: 15px;
+}
+
+.scroll-section #info .personal-info span .header {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.scroll-section #info .personal-info span {
+  font-size: 17px;
+  color: white;
+}
+
+.scroll-section #info .personal-info span ul {
+  padding-left: 15px;
+}
+
+.scroll-section #info .personal-info span ul li {
+  margin: 5px 0;
+}
+
+.scroll-section #info #slideshow {
+  flex: 0.75;
+  margin-left: 25px;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 510px;
+  width: 100%;
+}
+
+.slide-wrapper {
+  animation: slide 18s ease infinite;
+  -webkit-animation: slide 18s ease infinite;
+  width: 400%;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 25%;
+}
+
+.slide img {
+  width: 80%;
+}
+
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -100%;}
+  50% {margin-left: -100%;}
+  60% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  80% {margin-left: -300%;}
+  90% {margin-left: -300%;}
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -100%;}
+  50% {margin-left: -100%;}
+  60% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  80% {margin-left: -300%;}
+  90% {margin-left: -300%;}
+}
