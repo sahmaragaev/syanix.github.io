@@ -1,5 +1,6 @@
 import AboutUs from "../views/components/about_us.js";
 import Shahmar from "../views/components/shahmar.js";
+import Turkana from "../views/components/turkana.js";
 
 const header = document.getElementById('header');
 const info = document.getElementById('info');
@@ -14,7 +15,7 @@ shahmar.onclick = async function() {
 
 const turkana = document.getElementById('turkana');
 turkana.onclick = async function() {
-
+    info.innerHTML = await Turkana.render();
 };
 
 const vaqif = document.getElementById('vaqif');
