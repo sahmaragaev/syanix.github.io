@@ -4,7 +4,7 @@ let Shahmar = {
         <div class="personal-info">
             <span>
                 <p class="header">Professional Summary</p>
-                Shahmar, 17 years old. <br />1<sup>st</sup> year B.S. in Computer Science in ADA
+                Shahmar, 17 years old. Freshman B.S. in Computer Science student in ADA
                 University.<br />
                 Creative Software Developer, proficient with Flutter
                 and .NET. Analytical problem-solver offering decision-making and time management skills.
