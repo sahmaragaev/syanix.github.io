@@ -25,6 +25,8 @@ let Shahmar = {
                     <li>Online Teaching</li>
                 </ul>
             </span>
+            <div class="spacer"></div>
+            <span><p class="header"><a href="https://www.codecademy.com/profiles/sahmaragaev" target="_blank">CodeAcademy Profile</a></p></span>
         </div>
         <div id="slideshow">
             <div class="slide-wrapper">

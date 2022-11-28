@@ -1,4 +1,4 @@
-import AboutUs from "../views/components/about_us.js";
+import Header from "../views/components/header.js";
 import Shahmar from "../views/components/shahmar.js";
 import Turkana from "../views/components/turkana.js";
 
@@ -6,7 +6,7 @@ const header = document.getElementById('header');
 const info = document.getElementById('info');
 info.innerHTML = await Shahmar.render();
 
-header.innerHTML = await AboutUs.render();
+header.innerHTML = await Header.render();
 
 const shahmar = document.getElementById('shahmar');
 shahmar.onclick = async function() {

@@ -175,13 +175,18 @@ main a img {
   height: 15px;
 }
 
+.scroll-section #info .personal-info span {
+  font-size: 15px;
+  color: white;
+}
+
 .scroll-section #info .personal-info span .header {
   font-weight: bold;
   font-size: 19px;
 }
 
-.scroll-section #info .personal-info span {
-  font-size: 15px;
+.scroll-section #info .personal-info span .header a{
+  font-size: 19px;
   color: white;
 }
 
