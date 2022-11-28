@@ -1,4 +1,4 @@
-let AboutUs = {
+let Header = {
     render: async () => {
         let view = `
         <div class="people">
@@ -18,4 +18,4 @@ let AboutUs = {
     },
 }
 
-export default AboutUs;
+export default Header;

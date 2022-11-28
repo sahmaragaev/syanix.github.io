@@ -17,6 +17,8 @@ let Turkana = {
                     <li>Possess strong managerial and organizational abilities</li>
                 </ul>
             </span>
+            <div class="spacer"></div>
+            <span><p class="header"><a href="https://www.codecademy.com/profiles/turkana.aliyeva" target="_blank">CodeAcademy Profile</a></p></span>
         </div>
         <div id="slideshow">
             <div class="slide-wrapper">
