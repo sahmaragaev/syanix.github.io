@@ -20,5 +20,5 @@ turkana.onclick = async function() {
 
 const vaqif = document.getElementById('vaqif');
 vaqif.onclick = async function() {
-
+    
 };
