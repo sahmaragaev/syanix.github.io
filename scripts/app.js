@@ -1,6 +1,7 @@
 import Header from "../views/components/header.js";
 import Shahmar from "../views/components/shahmar.js";
 import Turkana from "../views/components/turkana.js";
+import Vaqif from "../views/components/vaqif.js";
 
 const header = document.getElementById('header');
 const info = document.getElementById('info');
@@ -20,5 +21,6 @@ turkana.onclick = async function() {
 
 const vaqif = document.getElementById('vaqif');
 vaqif.onclick = async function() {
+    info.innerHTML = await Vaqif.render();
 
 };
