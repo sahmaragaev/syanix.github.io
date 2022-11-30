@@ -1,7 +1,7 @@
 let Turkana = {
     render: async () => {
         let view = `
-        <div class="personal-info">
+        <div class="info-wrapper">
             <span>
                 <p class="header">Professional Summary</p>
                 Turkana, 17 years old.

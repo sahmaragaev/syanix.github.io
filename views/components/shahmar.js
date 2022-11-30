@@ -1,7 +1,7 @@
 let Shahmar = {
     render: async () => {
         let view = `
-        <div class="personal-info">
+        <div class="info-wrapper">
             <span>
                 <p class="header">Professional Summary</p>
                 Shahmar, 17 years old. Freshman B.S. in Computer Science student in ADA
