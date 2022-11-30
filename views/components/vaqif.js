@@ -1,7 +1,7 @@
 let Vaqif = {
     render: async () => {
         let view = `
-        <div class="personal-info">
+        <div class="info-wrapper">
             <span>
                 <p class="header">Professional Summary</p>
                 Name and Surname: Vagif Aliyev
@@ -16,7 +16,7 @@ let Vaqif = {
                 </ul>
             </span>
             <div class="spacer"></div>
-            <span><p class="header"><a href="https://www.codecademy.com/profiles/text9275482627" target="_blank">CodeAcademy Profile</a></p></span>
+            <span><p class="header"><a href="https://www.codecademy.com/profiles/beta7839468970" target="_blank">CodeAcademy Profile</a></p></span>
         </div>
         <div id="slideshow">
             <div class="slide-wrapper">
