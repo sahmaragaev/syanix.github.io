@@ -14,7 +14,7 @@ let HourOfCode = {
                     <div class="spacer"></div>
                     <span>
                         <p class="header"><a
-                                href="https://www.facebook.com/shahmar.aqayev.7/posts/pfbid09UwW1X49tJ1kdHgmgdjqci9gScNYHYVMw3LBRBoYh6YHk6P3mSUw1qhuksBomHTol"
+                                href="https://sahmaragaev.github.io/syanix.github.io/"
                                 target="_blank">GitHub pages</a></p>
                     </span>
                 </div>
